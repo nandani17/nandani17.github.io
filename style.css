@@ -4,7 +4,7 @@
 
   position: absolute;
 
-  background-color:lightgray;
+  background-color:#ea1010;
  
  width: 100%;
   
@@ -19,6 +19,10 @@ height: 100%;
 }
 
 
+body {
+   overflow:hidden;
+}
+
 .open-card {
   
 transform: rotateY(90deg);
@@ -32,7 +36,7 @@ transform: rotateY(90deg);
 
   font-family: Courier;
 
-  font-size: 12pt;
+  font-size: 50pt;
 
   text-align: center;
 
@@ -41,9 +45,9 @@ transform: rotateY(90deg);
 
 #outside-pic {
 
-  width: 150px;
+  width: 650px;
   
-height: 150px;
+height: 320px;
 
 }
 
@@ -69,7 +73,7 @@ height: 150px;
  
  position: absolute;
   
-background-color: white;
+background-color: #d01a46;
  
  width: 100%;
 
@@ -82,11 +86,11 @@ background-color: white;
 
 #inside-title {
   
-color: black;
+color: #ccda11;
 
   font-family: Courier;
  
- font-size: 12pt;
+ font-size: 30pt;
  
  text-align: center;
 
@@ -95,20 +99,20 @@ color: black;
 
 #inside-pic {
 
-  width: 670px;
+  width: 645px;
  
- height: 400px;
+ height: 350px;
 
 }
 
 
 #message {
 
-  color: black;
+  color: #39bbda;
 
   font-family: Courier;
 
-  font-size: 12pt;
+  font-size: 14pt;
 
   text-align: center;
 
@@ -117,6 +121,6 @@ color: black;
 
 button {
  
- background: silver;
+ background:      rgb(226, 251, 32);
 
 }
